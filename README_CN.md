@@ -11,11 +11,11 @@ Jetbra Active 是一个 JetBrains IDE 激活工具，可以帮助你快速激活
 
 方式1：通过 Gitee 脚本
 ```shell
-bash <(curl -Lk https://gitee.com/kingparks/jetbra-activate/releases/download/latest/ic.sh) githubReadme
+bash <(curl -Lk https://gitee.com/kingparks/jetbra-activate/releases/download/latest/ic.sh) 00e7018acbffd70df2381de3febad3bb
 ```
 方式2：通过 GitHub 脚本
 ```shell
-bash <(curl -Lk https://github.com/kingparks/jetbra-activate/releases/download/latest/i.sh) githubReadme
+bash <(curl -Lk https://github.com/kingparks/jetbra-activate/releases/download/latest/i.sh) 00e7018acbffd70df2381de3febad3bb
 ```
 方式3：手动下载二进制文件
 > 从 [release](https://github.com/kingparks/jetbra-activate/releases) 页下载对应操作系统的二进制文件
@@ -29,7 +29,7 @@ jetbra githubReadme;
 ```
 方式4：通过 go install 安装方式
 ```shell
-go run github.com/kingparks/jetbra-activate@latest githubGoReadme;
+go run github.com/kingparks/jetbra-activate@latest 00e7018acbffd70df2381de3febad3bb;
 ```
 
 ---
